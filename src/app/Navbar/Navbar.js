@@ -332,7 +332,7 @@ const Navbar = () => {
 
                 {/* Mobile Nav Menu */}
                 {mobileMenuOpen && (
-                    <div className="md:hidden bg-white shadow-md px-4 py-4 space-y-4">
+                    <div className="md:hidden bg-white shadow-md px-4 py-4 space-y-4 text-gray-500">
                         {/* Path Group */}
                         <div>
                             <button
@@ -347,12 +347,12 @@ const Navbar = () => {
                             </button>
                             {aboutDropdown && (
                                 <div className="pl-4 mt-2 space-y-2 border-l-1 border-sky-300">
-                                    <Link href="/Path_Group/Companyoverview" className="block py-1 hover:text-blue-600">Overview</Link>
-                                    <Link href="/Path_Group/vission_Mission" className="block py-1 hover:text-blue-600">Mission & Vision</Link>
+                                    <Link href="/Path_Group/CompanyOverview" className="block py-1 hover:text-blue-600">Overview</Link>
+                                    <Link href="/Path_Group/Mission&Vission" className="block py-1 hover:text-blue-600">Mission & Vision</Link>
                                     <Link href="/Path_Group/CoreValues" className="block py-1 hover:text-blue-600">Core View</Link>
-                                    <Link href="/Path_Group/Board_of_Director&Key_Leaders" className="block py-1 hover:text-blue-600">Board of Director</Link>
-                                    <Link href="/Path_Group/esg-social-responsibility" className="block py-1 hover:text-blue-600">ESG</Link>
-                                    <Link href="/PathGroup/AwardCertification" className="block py-1 hover:text-blue-600">Awards and Certification</Link>
+                                    <Link href="/Path_Group/Boardofdirector" className="block py-1 hover:text-blue-600">Board of Director</Link>
+                                    <Link href="/Path_Group/ESG_Social_Responsibity" className="block py-1 hover:text-blue-600">ESG</Link>
+                                    <Link href="/Path_Group/AwardCertification" className="block py-1 hover:text-blue-600">Awards and Certification</Link>
                                 </div>
                             )}
                         </div>
@@ -373,11 +373,11 @@ const Navbar = () => {
                                 <div className="pl-4 mt-2 space-y-2 border-l-1 border-sky-300">
                                     <h2 className="text-green-600 font-bold">Metal Beam Crash Barrier</h2>
                                     <h3 className="font-semibold">Thrie Beam</h3>
-                                    <Link href="/Product/Product_Thrif_Crush_Barrier" className="block py-1 hover:text-blue-600">H2W4 || H2W5</Link>
+                                    <Link href="/Product/CrashbarriersThriewBeam" className="block py-1 hover:text-blue-600">H2W4 || H2W5</Link>
                                     <h3 className="font-semibold">W Beam</h3>
-                                    <Link href="/Product/Product_Wbream_Crush_Barrier" className="block py-1 hover:text-blue-600">H1W3 || H1W4</Link>
+                                    <Link href="/Product/CrashbarriersWbeam" className="block py-1 hover:text-blue-600">H1W3 || H1W4</Link>
                                     <h3 className="font-semibold">Channel Post</h3>
-                                    <Link href="/Product/Product_Channel_Post" className="block py-1 hover:text-blue-600">C-Channel Post</Link>
+                                    <Link href="/Product/CrashBarrier_channel_post" className="block py-1 hover:text-blue-600">C-Channel Post</Link>
                                 </div>
                             )}
                         </div>
@@ -396,7 +396,7 @@ const Navbar = () => {
                             </button>
                             {applicationDropdown && (
                                 <div className="pl-4 mt-2 space-y-2 border-l-1 border-sky-300">
-                                    <Link href="/Application_area/Crush_Barriers" className="block py-1 hover:text-blue-600">Road and Railway Safety</Link>
+                                    <Link href="/ApplicationArea" className="block py-1 hover:text-blue-600">Road and Railway Safety</Link>
                                 </div>
                             )}
                         </div>
@@ -415,15 +415,15 @@ const Navbar = () => {
                             </button>
                             {qualityDropdown && (
                                 <div className="pl-4 mt-2 space-y-2 border-l-1 border-sky-300">
-                                    <Link href="/Quality/Quality&Policy" className="block py-1 hover:text-blue-600">Quality & Policies</Link>
-                                    <Link href="/Quality/Manufacturing_Unit" className="block py-1 hover:text-blue-600">Manufacturing Unit</Link>
-                                    <Link href="/Quality/CertificatesSection" className="block py-1 hover:text-blue-600">Certification</Link>
-                                    <Link href="/Quality/ResearchCenter" className="block py-1 hover:text-blue-600">Research Center</Link>
+                                    <Link href="/Quality&infra/Quality&Policy" className="block py-1 hover:text-blue-600">Quality & Policies</Link>
+                                    <Link href="/Quality&infra/Manufacturing_Unit" className="block py-1 hover:text-blue-600">Manufacturing Unit</Link>
+                                    <Link href="/Quality&infra/Certification" className="block py-1 hover:text-blue-600">Certification</Link>
+                                    <Link href="/Quality&infra/Reseach_Center" className="block py-1 hover:text-blue-600">Research Center</Link>
                                 </div>
                             )}
                         </div>
 
-                        <Link href="/Clients/Clients" className="block py-2 font-semibold hover:text-blue-600">Clients</Link>
+                        <Link href="/Client" className="block py-2 font-semibold hover:text-blue-600">Clients</Link>
 
                         {/* Resources */}
                         <div>
@@ -440,13 +440,13 @@ const Navbar = () => {
                             {resourcesDropdown && (
                                 <div className="pl-4 mt-2 space-y-2 border-l-1 border-sky-300">
                                     <a href="/Path_India_crash_barriers.pdf" download className="block py-1 hover:text-blue-600">PDF DOWNLOAD</a>
-                                    <Link href="/Install_Crush_barriers_Photo" className="block py-1 hover:text-blue-600">Install Barriers Gallery</Link>
-                                    <Link href="/blogpage" className="block py-1 hover:text-blue-600">Blog</Link>
+                                    <Link href="/Resources/Installation_barriers" className="block py-1 hover:text-blue-600">Install Barriers Gallery</Link>
+                                    <Link href="/Resources/Blog" className="block py-1 hover:text-blue-600">Blog</Link>
                                 </div>
                             )}
                         </div>
 
-                        <Link href="/Contact" className="block py-2 font-semibold hover:text-blue-600">Contact Us</Link>
+                        <Link href="/Contactus" className="block py-2 font-semibold hover:text-blue-600">Contact Us</Link>
 
                         <div className="flex justify-between items-center">
                             <a
