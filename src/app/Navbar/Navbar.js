@@ -137,7 +137,7 @@ const Navbar = () => {
                         </a>
 
                         <Link
-                            href="/-Resources/Blog"
+                            href="/Resources/Blog"
                             className="text-gray-600 hover:animate-bounce transition"
                         >
                             <ImBlog size={18} />
